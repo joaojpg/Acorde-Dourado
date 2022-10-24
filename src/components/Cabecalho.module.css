@@ -1,6 +1,11 @@
+
+div{
+    background-color:rgb(206, 144, 63);
+    width: 100%;
+}
+
 img{
     display: block;
-    background-color:aqua;
     margin: auto;
-    max-width: 400px;
+    max-width: 460px;
 }

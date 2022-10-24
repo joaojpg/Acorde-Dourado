@@ -5,16 +5,19 @@ function Navbar(){
     return(
     <ul className={styles.list}>
         <li className={styles.item}>
-          <Link to="/">Home</Link>
+          <Link style={{ textDecoration: 'none', color: 'black' }} to="/">Home</Link  > 
         </li>
         <li className={styles.item}>
-          <Link to="/empresa">Empresa</Link>
+          <Link style={{ textDecoration: 'none', color: 'black' }}  to="/produtos">Produtos</Link>
         </li>
         <li className={styles.item}>
-          <Link to="/contato">Contato</Link>
+          <Link style={{ textDecoration: 'none', color: 'black' }}  to="/empresa">Empresa</Link>
         </li>
         <li className={styles.item}>
-          <Link to="/produtos">Produtos</Link>
+          <Link style={{ textDecoration: 'none', color: 'black' }}  to="/contato">Contato</Link>
+        </li>
+        <li className={styles.item}>
+          <Link style={{ textDecoration: 'none', color: 'black' }}  to="/cadastre">Cadastre-se</Link>
         </li>
     </ul>
     )

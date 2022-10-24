@@ -3,6 +3,7 @@ import Home from './components/pages/Home'
 import Contato from './components/pages/Contato'
 import Empresa from './components/pages/Empresa'
 import Produtos from './components/pages/Produtos'
+import Cadastre from './components/pages/Cadastre'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Cabecalho from './components/Cabecalho'
@@ -16,9 +17,10 @@ function App() {
         <Navbar />
           <Routes>
             <Route path="/" exact element={<Home />} />
+            <Route  path="/produtos" element={<Produtos />} />
             <Route  path="/empresa"  element={<Empresa />} />
             <Route  path="/contato" element={<Contato />} />
-            <Route  path="/produtos" element={<Produtos />} />
+            <Route  path="/cadastre" element={<Cadastre />} />
           </Routes>
     </Router>
     

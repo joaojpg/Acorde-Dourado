@@ -1,17 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
+
 .list {
+    text-align: center;
+    font-family: 'Lusitana', serif;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     justify-content: center;
-    background-color: rgba(0, 255, 255, 0.267);
+    background-color: rgb(255, 255, 255);
     padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
 }
 
 .item {
-    margin-right: 1em ;
-    background-color: rgba(0, 0, 255, 0.205);
     width: 180px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
+    font-style: italic;
 }
