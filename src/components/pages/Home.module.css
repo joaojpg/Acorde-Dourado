@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
+
 div{
-    
+    text-align: center;
+}
+.imagem{
+    background-image: url('./violao.jpg');
+    background-position: center center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: brightness(100%);
+    height: 100vh;
+}
+.fundo{
+    background-color: rgba(240, 248, 255, 0.658);
+    max-width: 600px;
+    height: 650px;
+}
+h3{
+    font-family: 'Lusitana', serif;
+    font-style: italic;
+    padding-top: 50px;
+    font-size: 2em;
+}
+p{
+    font-family: 'Lusitana', serif;
+    font-style: italic;
+    font-size: 1.5em;;
 }
