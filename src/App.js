@@ -13,16 +13,16 @@ function App() {
 
   return (
     <Router>
-    <Cabecalho />
-        <Navbar />
-          <Routes>
-            <Route path="/" exact element={<Home />} />
-            <Route  path="/produtos" element={<Produtos />} />
-            <Route  path="/empresa"  element={<Empresa />} />
-            <Route  path="/contato" element={<Contato />} />
-            <Route  path="/cadastre" element={<Cadastre />} />
-          </Routes>
-    <Footer />
+      <Cabecalho />
+          <Navbar />
+            <Routes>
+              <Route path="/" exact element={<Home />} />
+              <Route  path="/produtos" element={<Produtos />} />
+              <Route  path="/empresa"  element={<Empresa />} />
+              <Route  path="/contato" element={<Contato />} />
+              <Route  path="/cadastre" element={<Cadastre />} />
+            </Routes>
+      <Footer />
     </Router>
     
   )

@@ -1,0 +1,35 @@
+footer{
+   
+    text-align: center;
+    justify-content: flex-end;
+}
+ul{
+    list-style: none;
+}
+.definindoLi{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.removeMargin{
+    margin: 0px;
+    padding: 0px;
+}
+.rodape{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.8em;
+    
+}
+.elementos{
+    width: 190px;
+    padding: 0px;
+    margin: 0px;
+}
+.paragrafo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-width: 450px;
+    text-align: center;
+    margin: 0px;
+    font-size: 1.3em;
+}

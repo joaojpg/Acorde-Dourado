@@ -17,13 +17,13 @@ div{
 .fundo{
     background-color: rgba(240, 248, 255, 0.658);
     max-width: 600px;
-    height: 670px;
+    height: 100%;
 }
 h3{
     font-family: 'Lusitana', serif;
     font-style: italic;
     padding-top: 50px;
-    font-size: 2em;
+    font-size: 1.3em;
 }
 p{
     font-family: 'Lusitana', serif;
