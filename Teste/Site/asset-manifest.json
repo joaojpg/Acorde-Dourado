@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e5ee7fcd.css",
+    "main.js": "/static/js/main.6611f4dc.js",
+    "static/js/787.37c46113.chunk.js": "/static/js/787.37c46113.chunk.js",
+    "static/media/violao.jpg": "/static/media/violao.98a13f7712ae22ea3397.jpg",
+    "static/media/acordelunar.png": "/static/media/acordelunar.170e60895652214e0ba0.png",
+    "index.html": "/index.html",
+    "main.e5ee7fcd.css.map": "/static/css/main.e5ee7fcd.css.map",
+    "main.6611f4dc.js.map": "/static/js/main.6611f4dc.js.map",
+    "787.37c46113.chunk.js.map": "/static/js/787.37c46113.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5ee7fcd.css",
+    "static/js/main.6611f4dc.js"
+  ]
+}
