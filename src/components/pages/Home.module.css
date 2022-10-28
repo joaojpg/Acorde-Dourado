@@ -3,6 +3,9 @@
 div{
     text-align: center;
 }
+.tamanho{
+    font-size: 1.3em;
+}
 .imagem{
     background-image: url('./violao.jpg');
     background-position: center center;
@@ -22,8 +25,9 @@ div{
 h3{
     font-family: 'Lusitana', serif;
     font-style: italic;
+    margin-top: 10px;
     padding-top: 50px;
-    font-size: 1.3em;
+    font-size: 1.9em;
 }
 p{
     font-family: 'Lusitana', serif;

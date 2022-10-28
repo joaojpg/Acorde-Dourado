@@ -6,12 +6,14 @@ function Home() {
         <div>
             <section className={styles.imagem}>
                 <section className={styles.fundo}>
-                    <h3>
-                        Qualidade e História
-                    </h3>
-                    <p>
-                        Nossos instrumentos são produzidos com carinho e dedicação, buscando trazer toda a nossa história como bagagem mas mantendo a modernidade das novas tecnologias
-                    </p>
+                    <div className={styles.tamanho}>
+                        <h3>
+                            Qualidade e História
+                        </h3>
+                        <p>
+                            Nossos instrumentos são produzidos com carinho e dedicação, buscando trazer toda a nossa história como bagagem mas mantendo a modernidade das novas tecnologias
+                        </p>
+                    </div>
                 </section>                
             </section>
         </div>
