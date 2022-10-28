@@ -17,11 +17,11 @@ body {
   .form_wrapper {
     background: #fff;
     max-width: 1200px;
-    min-width: 420px;
+    min-width: 480px;
     min-height: 700px;
     box-sizing: border-box;
     padding: 25px;
-    margin: 8%;
+    margin: 8% auto;
     position: relative;
     z-index: 1;
     border-top: 5px solid #030303;

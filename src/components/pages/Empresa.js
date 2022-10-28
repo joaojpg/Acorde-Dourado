@@ -6,7 +6,7 @@ function Empresa() {
         <div>
             <section className={styles.imagem}>
                 <section className={styles.fundo}>
-                    <h3 className={styles.boxText}>
+                    <h3 className={styles.boxTitle}>
                         Nossa Empresa
                     </h3>
                     <p className={styles.boxText}>
