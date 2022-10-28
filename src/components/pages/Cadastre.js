@@ -15,29 +15,29 @@ function Cadastre() {
                 <div className={styles.row + ' ' + styles.clearfix}></div>
 
 
-                    <div className={styles.input_field}> <span><i aria-hidden="true" className={styles.fa + ' ' + styles.fa-envelope}></i></span>
+                    <div className={styles.input_field}> <span><i aria-hidden="true" className={styles.fa}></i></span>
                         <input type="email" name="email" placeholder="Email" required />
                     </div>
 
-                    <div className={styles.input_field}> <span><i aria-hidden="true" className={styles.fa + ' ' + styles.fa-lock}></i></span>
+                    <div className={styles.input_field}> <span><i aria-hidden="true" className={styles.fa}></i></span>
                         <input type="password" name="password" placeholder="Senha" required />
                     </div>
 
-                    <div className={styles.input_field}> <span><i aria-hidden="true" className={styles.fa + ' ' + styles.fa-lock}></i></span>
+                    <div className={styles.input_field}> <span><i aria-hidden="true" className={styles.fa}></i></span>
                         <input type="password" name="password" placeholder="Digite novamente sua senha" required />
                     </div>
 
                     <div className={styles.row + ' ' + styles.clearfix}>
 
                         <div className={styles.col_half}>
-                        <div className={styles.input_field}> <span><i aria-hidden="true" className={styles.fa + ' ' + styles.fa-user}></i></span>
+                        <div className={styles.input_field}> <span><i aria-hidden="true" className={styles.fa}></i></span>
                             <input type="text" name="name" placeholder="Nome" />
                         </div>
                         </div>
 
                         <div className={styles.col_half}>
 
-                            <div className={styles.input_field}> <span><i aria-hidden="true" className={styles.fa + ' ' + styles.fa-user}></i></span>
+                            <div className={styles.input_field}> <span><i aria-hidden="true" className={styles.fa}></i></span>
                                 <input type="text" name="name" placeholder="Sobrenome" required />
                             </div>
 
@@ -71,7 +71,7 @@ function Cadastre() {
                     <div className={styles.idade} />
                         <div className={styles.row + ' ' + styles.clearfix} />
                             <div className={""} />
-                                <div className={styles.idade}> <span><i aria-hidden="true" className={styles.fa + ' ' + styles.fa-envelope}></i></span>
+                                <div className={styles.idade}> <span><i aria-hidden="true" className={styles.fa}></i></span>
                                 <p>Ano de Nascimento</p>
                                 <input type="date" name="date" placeholder="Digite sua idade" required />
                                 </div>
@@ -79,7 +79,7 @@ function Cadastre() {
                                 <div className={styles.row + ' ' + styles.clearfix}>
                                 <div className={""}>
                                 <form>
-                                    <div className={styles.tel}> <span><i aria-hidden="true" className={styles.fa + ' ' + styles.fa-envelope}></i></span>
+                                    <div className={styles.tel}> <span><i aria-hidden="true" className={styles.fa}></i></span>
                 
                                     <input id="telefone" type="tel" name="telefone" placeholder="Digite seu telefone" required />
                             </div>
