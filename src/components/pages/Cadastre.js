@@ -81,7 +81,7 @@ function Cadastre() {
                                 <form>
                                     <div className={styles.tel}> <span><i aria-hidden="true" className={styles.fa}></i></span>
                 
-                                    <input id="telefone" type="tel" name="telefone" placeholder="Digite seu telefone" required />
+                                    <input className={styles.telefone + ' ' + styles.fa} type="tel" name="telefone" placeholder="Digite seu telefone" required />
                             </div>
                         
                         <div className={styles.input_field + ' ' + styles.checkbox_option}>

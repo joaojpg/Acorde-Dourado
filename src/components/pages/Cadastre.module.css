@@ -17,22 +17,25 @@ body {
   .form_wrapper {
     background: #fff;
     max-width: 1200px;
-    height: 900px;
+    min-width: 420px;
+    min-height: 700px;
     box-sizing: border-box;
     padding: 25px;
-    margin: 8% auto 0;
+    margin: 8%;
     position: relative;
     z-index: 1;
-    border-top: 5px solid #f5ba1a;
+    border-top: 5px solid #030303;
   }
   .form_wrapper h2 {
+    font-family: 'Lusitana';
     font-size: 3em;
-    line-height: 5em;
+    line-height: 1.2em;
     margin: 0;
   }
   .form_wrapper .title_container {
+    display: block;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 2px;
   }
   .form_wrapper h3 {
     font-size: 3em;
@@ -91,11 +94,11 @@ body {
   }
   .form_wrapper input[type=text]:focus, .form_wrapper input[type=email]:focus, .form_wrapper input[type=password]:focus {
     box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
-    border: 1px solid #f5ba1a;
+    border: 1px solid #ac820f;
     background: #fafafa;
   }
   .form_wrapper input[type=submit] {
-    background: #f5ba1a;
+    background: #bd9832;
     height: 35px;
     line-height: 35px;
     width: 100%;
@@ -107,10 +110,10 @@ body {
     margin-bottom: 10px;
   }
   .form_wrapper input[type=submit]:hover {
-    background: #e1a70a;
+    background: #b38f2c;
   }
   .form_wrapper input[type=submit]:focus {
-    background: #e1a70a;
+    background: #977a2a;
   }
   .form_wrapper input[type=checkbox], .form_wrapper input[type=radio] {
     border: 0;
@@ -263,9 +266,11 @@ body {
     padding-top: 10px;
   }
   
-  #telefone  {
+  .telefone  {
     left: 50px;
     font-size: 1.8em;
+    margin: 5px;
+    width: 50%;
     
   }
   
