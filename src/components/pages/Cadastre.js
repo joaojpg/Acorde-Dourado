@@ -15,7 +15,7 @@ function Cadastre() {
                 <div className={styles.row + ' ' + styles.clearfix}></div>
 
 
-                    <div className={styles.input_field}> <span><i aria-hidden="true" className={styles.fa}></i></span>
+                    <div className={styles.input_field}> <span><i aria-hidden="true"></i></span>
                         <input type="email" name="email" placeholder="Email" required />
                     </div>
 
@@ -52,7 +52,7 @@ function Cadastre() {
                         <label for="rd2">Feminino</label>
                     </div>
 
-                    <div className={styles.input_field + ' ' + styles.select_option}>
+                    <div className={styles.input_field + ' ' + styles.select_option + ' ' + styles.select_option_pais}>
                             <select> 
                             <option>Selecione seu país</option>
                             <option>Brasil</option>
@@ -70,18 +70,21 @@ function Cadastre() {
 
                     <div className={styles.idade} />
                         <div className={styles.row + ' ' + styles.clearfix} />
+
                             <div className={""} />
-                                <div className={styles.idade}> <span><i aria-hidden="true" className={styles.fa}></i></span>
+
+                                <div><span><i aria-hidden="true"></i></span>
                                 <p>Ano de Nascimento</p>
-                                <input type="date" name="date" placeholder="Digite sua idade" required />
+                                <input className={styles.age} type="date" name="date" placeholder="Digite sua idade" required />
                                 </div>
-                                <div className={styles.tel}>
+
+                                <div>
                                 <div className={styles.row + ' ' + styles.clearfix}>
                                 <div className={""}>
                                 <form>
-                                    <div className={styles.tel}> <span><i aria-hidden="true" className={styles.fa}></i></span>
+                                    <div> <span><i aria-hidden="true" ></i></span>
                 
-                                    <input className={styles.telefone + ' ' + styles.fa} type="tel" name="telefone" placeholder="Digite seu telefone" required />
+                                    <input className={styles.telefone + ' ' + styles.input_field} type="tel" name="telefone" placeholder="Digite seu telefone" required />
                             </div>
                         
                         <div className={styles.input_field + ' ' + styles.checkbox_option}>

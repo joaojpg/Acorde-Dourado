@@ -60,8 +60,6 @@ body {
   .form_wrapper .input_field {
     position: relative;
     margin-bottom: 20px;
-    -webkit-animation: bounce 0.6s ease-out;
-    animation: bounce 0.6s ease-out;
   }
   .form_wrapper .input_field > span {
     position: absolute;
@@ -152,9 +150,9 @@ body {
     border-top: 2px solid #000000;
     content: "";
     height: 20px;
-    left: 2px;
+    left: 10px;
     position: absolute;
-    top: 7px;
+    top: 19px;
     transform: scaleX(-1) rotate(135deg);
     transform-origin: left top;
     width: 7px;
@@ -197,7 +195,11 @@ body {
     background-color: #000000;
     border-color: #000000;
   }
-  
+  .select_option_pais{
+    margin: auto;
+    max-width: 300px;
+  }
+
   .select_option {
     position: relative;
     width: 100%;
@@ -243,9 +245,7 @@ body {
   }
   
   .age{
-    font-family: 'Lusitana', serif;
-    font-size: 1.8em;
-  
+    max-width: 250px;
     
   }
   .form_wrapper .age {
