@@ -24,7 +24,7 @@ body {
     margin: 8% auto;
     position: relative;
     z-index: 1;
-    border-top: 5px solid #030303;
+    border: 5px solid #000000;
   }
   .form_wrapper h2 {
     font-family: 'Lusitana';
