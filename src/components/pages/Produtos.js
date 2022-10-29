@@ -28,7 +28,7 @@ function Produtos(){
                 <div className={styles.container1}>
                     <div className={styles.card1}>
                         <div className={styles.imagem1}>
-                            <img src={img2} className={styles.Violao} alt="Violao.png" />
+                            <img src={img2} className={styles.Violao} alt="Violao" />
                         </div>
                         <div className={styles.texto1}>
                             <h2 className={styles.text_title1}>Violino 1910</h2>
