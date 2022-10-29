@@ -1,7 +1,7 @@
 import styles from './Produtos.module.css'
-import img1 from "./assets/Violao.jpg"
-import img2 from "./assets/violino.jpg"
-import img3 from "./assets/organ.jpg"
+import img1 from "./assets/Violao.png"
+import img2 from "./assets/violino.png"
+import img3 from "./assets/organ.png"
 
 function Produtos(){
 
