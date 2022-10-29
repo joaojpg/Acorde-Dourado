@@ -19,7 +19,7 @@ function Produtos(){
                             <p className={styles.desc1}>O Violão modelo 1935 foi produzido de forma totalmente artesanal, buscando manter as caracteristicas do ano que foi modelado e desenvolvimento.</p>
                         </div>
                         <div className={styles.button1}>
-                        <button type="button" className={styles.btn1}>Comprar</button>
+                        <button type="button" className={styles.btn1  + ' ' + styles.ajusteBtn}>Comprar</button>
                         </div>
                     </div>
                 </div>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
+
 .centerBox{
     margin: auto;
     min-width: 490px;
@@ -5,6 +7,7 @@
     background-color: aliceblue;
 }
 .titleContato{
+    font-family: 'Lusitana', serif;
     font-size: 3em;
     font-style: italic;
     padding-top: 10px;
@@ -12,6 +15,7 @@
     min-width: 490px;
 }
 .boxContatos{
+    font-family: 'Lusitana', serif;
     margin: auto;
     display: flex;
     flex-wrap: wrap;

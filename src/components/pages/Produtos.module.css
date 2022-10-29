@@ -50,6 +50,9 @@
     font-size: 90%;
     font-weight: 100%;
 }
+.ajusteBtn{
+    margin-top: 50px;
+}
 
 .button1{
     display: flex;
@@ -75,38 +78,3 @@
 }
 
 
-
-.card2 {
-        width: 330px;
-        height: 530px;
-        border-radius: 15px;
-        background-color: #202020;
-}
-
-.container3{
-    display: flex;
-    justify-content: center;
-}
-
-.card3 {
-        width: 330px;
-        height: 530px;
-        border-radius: 15px;
-        background-color: #202020;
-}
-
-.container4{
-    display: flex;
-    justify-content: center;
-}
-
-.card4 {
-        width: 330px;
-        height: 530px;
-        border-radius: 15px;
-        background-color: #202020;
-}
-
-li{
-    list-style: none;
-}
