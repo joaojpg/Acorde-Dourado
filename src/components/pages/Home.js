@@ -7,7 +7,7 @@ function Home() {
             <section className={styles.imagem}>
                 <section className={styles.fundo}>
                     <div className={styles.tamanho}>
-                        <h3>
+                        <h3 className={styles.titleHome}>
                             Qualidade e História
                         </h3>
                         <p>

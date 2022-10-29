@@ -5,11 +5,12 @@ import styles from './Cadastre.module.css'
 function Cadastre() {
     return(
         <body>
+            <h2 className={styles.titleCadastre} >Cadastro de usuário</h2>
             <div className={styles.form_wrapper}>
             <div className={styles.form_container}>
 
                 <div className={styles.title_container}>
-                <h2>Cadastro de usuário</h2>
+                
                 </div>
 
                 <div className={styles.row + ' ' + styles.clearfix}></div>

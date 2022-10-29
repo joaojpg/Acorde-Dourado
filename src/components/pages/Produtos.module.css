@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
+.Prod{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-width: 490px;
+    padding: 0px;
+}
+.titlePage{
+    font-size: 3.0em;
+    font-family: 'Lusitana', serif;
+    font-style: italic;
+    min-width: 490px;
+}
+.boxProd{
+    font-family: 'Lusitana', serif;
+    width: 220px;
+    height: 350px;
+    background-color: rgb(128, 115, 76);
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.title{
+    padding-top: 15px;
+}
+.titleInst{
+    padding-bottom: 6px;
+}
+.imgSize{
+    width: 100%;
+}
+h3{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.5em;
+}
+h1{
+    margin: 0px;
+    font-size: 1.5em;
+    font-family: 'Lusitana', serif;
+}
+.spacePrice{
+    padding-top: 6px;
+}
+.buy{
+    margin: 3px;
+    background-color: rgb(241, 241, 228);
+    border-radius: 5px;
+    padding: 9px;
+    border: 0px;
+}
+.buy:hover{
+    background-color: rgb(255, 174, 0);
+}
+a{
+    text-decoration: none;
+    color: black;
+}

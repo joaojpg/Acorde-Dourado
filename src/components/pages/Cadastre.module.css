@@ -5,7 +5,14 @@ body {
     }
     background: #f2f2f2;
   }
-  
+  .titleCadastre{
+    font-size: 3em;
+    font-family: 'Lusitana';
+    font-style: italic;
+    padding-top: 10px;
+    margin: 0px;
+    min-width: 490px;
+  }
   .clearfix:after {
     content: "";
     display: block;
@@ -24,7 +31,7 @@ body {
     margin: 8% auto;
     position: relative;
     z-index: 1;
-    border: 5px solid #000000;
+    margin-top: 20px;
   }
   .form_wrapper h2 {
     font-family: 'Lusitana';

@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
-
+.titleHome{
+    padding-top: 50px;
+    font-size: 2.0em;
+}
 div{
     text-align: center;
 }
