@@ -24,6 +24,12 @@
         background-color: #202020;
         margin-top: 20px;
         margin-bottom: 20px;
+        transition: 0.2s;
+}
+
+.card1:hover{
+    box-shadow: 4px 4px 4px rgb(109, 109, 109);
+    transition: 0.2s;
 }
 
 .desc1{
@@ -49,7 +55,18 @@
     font-family: 'Lusitana', serif;
     font-size: 90%;
     font-weight: 100%;
+    border-radius: 10px;
+    border: none;
+    transition: 0.5s;
+    background-color: #e78e40;
 }
+
+.btn1:hover{
+    transition: 0.5s;
+    background-color: #b6610c;
+    cursor: pointer;
+}
+
 .ajusteBtn{
     margin-top: 50px;
 }
