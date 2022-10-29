@@ -8,25 +8,25 @@ function Footer() {
                 <li className={styles.definindoLi}>
                     <h3  className={styles.elementos} >Noticias</h3>
                     <ul className={styles.removeMargin} >
-                        <li>Música</li>
-                        <li>Instrumentos</li>
-                        <li>Artistas</li>
+                        <li><a href="#1">Música</a></li>
+                        <li><a href="#2">Instrumentos</a></li>
+                        <li><a href="#3">Artistas</a></li>
                     </ul>
                 </li>
                 <li className={styles.definindoLi}>
                     <h3 className={styles.elementos}>Parceiros</h3>
                     <ul className={styles.removeMargin} >
-                        <li>Timbres</li>
-                        <li>Cordas V8</li>
-                        <li>Pestana Sound</li>
+                        <li><a href="#4">Timbres</a></li>
+                        <li><a href="#5">Cordas V8</a></li>
+                        <li><a href="#6">Pestana Sound</a></li>
                     </ul>
                 </li>
                 <li className={styles.definindoLi}> 
                     <h3 className={styles.elementos}>Tutoriais</h3>
                     <ul className={styles.removeMargin} >
-                        <li>Acordes</li>
-                        <li>Dedilhados</li>
-                        <li>Ritmos</li>
+                        <li><a href="#7">Acordes</a></li>
+                        <li><a href="#8">Dedilhados</a></li>
+                        <li><a href="#9">Ritmos</a></li>
                     </ul>
                 </li>
             </ul>

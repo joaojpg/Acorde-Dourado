@@ -33,3 +33,8 @@ ul{
     margin: 0px;
     font-size: 1.3em;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
