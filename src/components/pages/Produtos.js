@@ -1,58 +1,63 @@
 import styles from './Produtos.module.css'
-import img1 from './v1.jpg'
-import img2 from './v2.jpg'
-import img3 from './v3.jpg'
+import img1 from "./assets/Violao.jpg"
+import img2 from "./assets/violino.jpg"
+import img3 from "./assets/organ.jpg"
 
 function Produtos(){
 
     return(
-        <div>
-            <h1 className={styles.titlePage}>Produtos</h1>
-            <ul className={styles.Prod}>
-                <li className={styles.boxProd}>
-                    <div className={styles.title}>
-                        <h1  className={styles.titleInst}>Banjo 1935</h1>
-                    </div>
-                    <div>
-                        <img className={styles.imgSize} src={img1}/>
-                    </div>
-                    <div>
-                        <h3 className={styles.spacePrice}>R$3.000</h3>
-                    </div>
-                    <div>
-                        <button  className={styles.buy}><a href="">Comprar</a></button>
-                    </div>
-                </li>
-                <li className={styles.boxProd}>
-                    <div className={styles.title}>
-                        <h1 className={styles.titleInst}>Violino 1986</h1>
-                    </div>
-                    <div>
-                        <img className={styles.imgSize} src={img2}/>
-                    </div>
-                    <div>
-                        <h3 className={styles.spacePrice}>R$6.000</h3>
-                    </div>
-                    <div>
-                        <button  className={styles.buy}><a href="">Comprar</a></button>
-                    </div>
-                </li>
-                <li className={styles.boxProd}>
-                    <div className={styles.title}>
-                        <h1  className={styles.titleInst}>Orgão 1850</h1>
-                    </div>
-                    <div>
-                        <img className={styles.imgSize} src={img3}/>
-                    </div>
-                    <div>
-                        <h3 className={styles.spacePrice}>R$15.000</h3>
-                    </div>
-                        <div>
-                            <button  className={styles.buy}><a href="">Comprar</a></button>
+        <div className={styles.cards}>
+        <ul className={styles.centralizarProd}>
+            <li className={styles.li_card1}>
+                <div className={styles.container1}>
+                    <div className={styles.card1}>
+                        <div className={styles.imagem1}>
+                            <img src={img1} className={styles.Violao} alt="Violao.png" />
                         </div>
-                </li>
-            </ul>
-        </div>
+                        <div className={styles.texto1}>
+                            <h2 className={styles.text_title1}>Violão 1935</h2>
+                            <p className={styles.desc1}>O Violão modelo 1935 foi produzido de forma totalmente artesanal, buscando manter as caracteristicas do ano que foi modelado e desenvolvimento.</p>
+                        </div>
+                        <div className={styles.button1}>
+                        <button type="button" className={styles.btn1}>Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li className={styles.li_card1}>
+                <div className={styles.container1}>
+                    <div className={styles.card1}>
+                        <div className={styles.imagem1}>
+                            <img src={img2} className={styles.Violao} alt="Violao.png" />
+                        </div>
+                        <div className={styles.texto1}>
+                            <h2 className={styles.text_title1}>Violino 1910</h2>
+                            <p className={styles.desc1}>Feito de madeira bahiana, das árvores da região, o violino modelo 1910 traz em sua essência o som característico da época, trazendo assim um som único e uniforme para os ouvidos de quem aprecia o bom e velho som rústico do violino.</p>
+                        </div>
+                        <div className={styles.button1}>
+                        <button type="button" className={styles.btn1}>Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li className={styles.li_card1}>
+                <div className={styles.container1}>
+                    <div className={styles.card1}>
+                        <div className={styles.imagem1}>
+                            <img src={img3} className={styles.Violao} alt="Violao.png" />
+                        </div>
+                        <div className={styles.texto1}>
+                            <h2 className={styles.text_title1}>Orgão 1888</h2>
+                            <p className={styles.desc1}>Neste orgão, todas as madeiras foram trazidas do outro lado do mapa, buscando mostrar em sua essência a característica marcante de seu som. Produzido em 1888, é o orgão mais procurado no mundo atualmente.</p>
+                        </div>
+                        <div className={styles.button1}>
+                        <button type="button" className={styles.btn1}>Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
     )
 
 

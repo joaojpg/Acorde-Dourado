@@ -1,62 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
-.Prod{
+
+.centralizarProd{
+    min-width: 390px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    min-width: 490px;
-    padding: 0px;
+    flex-wrap: wrap;
+    padding-left: 0px;
 }
-.titlePage{
-    font-size: 3.0em;
-    font-family: 'Lusitana', serif;
-    font-style: italic;
-    min-width: 490px;
-}
-.boxProd{
-    font-family: 'Lusitana', serif;
-    width: 220px;
-    height: 350px;
-    background-color: rgb(128, 115, 76);
-    border-radius: 5px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
+.cards{
     
+    background-color: rgba(255, 255, 240, 0.822);
+    min-width: 480px;
 }
-.title{
-    padding-top: 15px;
+.container1{
+    display: flex;
+    justify-content: center;
 }
-.titleInst{
-    padding-bottom: 6px;
+
+.card1{
+        width: 330px;
+        height: 530px;
+        border-radius: 15px;
+        background-color: #202020;
+        margin-top: 20px;
+        margin-bottom: 20px;
 }
-.imgSize{
-    width: 100%;
-}
-h3{
-    margin: 0px;
-    padding: 0px;
-    font-size: 1.5em;
-}
-h1{
-    margin: 0px;
-    font-size: 1.5em;
+
+.desc1{
     font-family: 'Lusitana', serif;
+    color: white;
+    font-weight: 100%;
+    text-align: center;
+    font-size: 105%;
+    max-width: 250px;
+    margin: auto;
 }
-.spacePrice{
-    padding-top: 6px;
+
+.text_title1{
+    font-family: 'Lusitana', serif;
+    text-align: center;
+    color: white;
+    font-weight: 100%;
+    font-size: 160%;
 }
-.buy{
-    margin: 3px;
-    background-color: rgb(241, 241, 228);
-    border-radius: 5px;
-    padding: 9px;
-    border: 0px;
+
+.btn1{
+    padding: 4% 12%;
+    font-family: 'Lusitana', serif;
+    font-size: 90%;
+    font-weight: 100%;
 }
-.buy:hover{
-    background-color: rgb(255, 174, 0);
+
+.button1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
 }
-a{
-    text-decoration: none;
-    color: black;
+
+.container2{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem1{
+    display: flex;
+    justify-content: center;
+}
+
+.Violao{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 7%;
+}
+
+
+
+.card2 {
+        width: 330px;
+        height: 530px;
+        border-radius: 15px;
+        background-color: #202020;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+}
+
+.card3 {
+        width: 330px;
+        height: 530px;
+        border-radius: 15px;
+        background-color: #202020;
+}
+
+.container4{
+    display: flex;
+    justify-content: center;
+}
+
+.card4 {
+        width: 330px;
+        height: 530px;
+        border-radius: 15px;
+        background-color: #202020;
+}
+
+li{
+    list-style: none;
 }
