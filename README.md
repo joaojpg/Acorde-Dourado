@@ -1,11 +1,21 @@
 <h1>Acorde Dourado</h1>
-<h3>Integrantes do grupo: Vinicius Emanoel Mendes, João Vitor Nascimento Sabino, João Henrique Augait do Nascimento, Rafael Fernandes de Souza Junior, Gustavo Henrique Pexe Sforça, Giovanna Antunes Baptista</h3>
-
+<p><strong>Integrantes do grupo:</strong>
 <br/>
+Vinicius Emanoel Mendes,
+<br/>
+João Vitor Nascimento Sabino,
+<br/>
+João Henrique Augait do Nascimento,
+<br/>
+Rafael Fernandes de Souza Junior,
+<br/>
+Gustavo Henrique Pexe Sforça,
+<br/>
+Giovanna Antunes Baptista</p>
 
-<p>O site foi feita a partir do framework <strong>React</strong> que foi utilizado para navegar entre as paginas sendo elas <strong>Home</strong> , <strong>Produtos</strong>, <strong>Empresa</strong>, <strong>Contatos</strong>,  <strong>Cadastre-se</strong>.</p>
+<h3>O site foi feita a partir do framework <strong>React</strong> que foi utilizado para navegar entre as paginas sendo elas <strong>Home</strong> , <strong>Produtos</strong>, <strong>Empresa</strong>, <strong>Contatos</strong>,  <strong>Cadastre-se</strong>.</h3>
 
-<p>Cada página possui sua finalidade especifica assim como:</p>
+<h3>Cada página possui sua finalidade especifica assim como:</h3>
 
 <p><strong>Home:</strong> Página principal do site que explica de maneira resumida a politica da empresa e nossa atividade principal.</p>
 
