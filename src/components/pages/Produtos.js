@@ -16,7 +16,7 @@ function Produtos(){
                         </div>
                         <div className={styles.texto1}>
                             <h2 className={styles.text_title1}>Violão 1935</h2>
-                            <p className={styles.desc1}>O Violão modelo 1935 foi produzido de forma totalmente artesanal, buscando manter as caracteristicas do ano que foi modelado e desenvolvimento.</p>
+                            <p className={styles.desc1}>O Violão modelo 1935 foi produzido de forma totalmente artesanal, buscando manter as caracteristicas do ano que foi modelado e desenvolvido.</p>
                         </div>
                         <div className={styles.button1}>
                         <button type="button" className={styles.btn1  + ' ' + styles.ajusteBtn}>Comprar</button>
